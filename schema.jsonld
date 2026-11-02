@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-san-diego-ca#service",
+      "name": "Website design in San Diego, CA",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-san-diego-ca",
+      "description": "Need a website designer in San Diego? Custom websites, branding and 3D animation for businesses across the San Diego metro.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "San Diego, California",
+          "sameAs": "https://www.wikidata.org/wiki/Q16552"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "San Diego County, California"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for San Diego businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in California",
+          "item": "https://www.lemurianstudios.com/services/web-design-california"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "San Diego, CA",
+          "item": "https://www.lemurianstudios.com/services/website-design-san-diego-ca"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does my site need to be in English and Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If a real share of your customers prefer Spanish, then yes, with properly translated pages. We set up the structure, and you or a translator you trust approves the copy."
+          }
+        }
+      ]
+    }
+  ]
+}
